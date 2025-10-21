@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(135deg, #1c1c1c, #232526);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.card {
+  background: #2a2a2a;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.subtitle {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  background-color: #ff0050;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #e60046;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+/* ✅ fix different reel sizes */
+.video-container {
+  width: 100%;
+  max-width: 320px;
+  height: 480px;
+  margin: 0 auto 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps all reels same size and centered */
+  border-radius: 12px;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #00c896;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.download-btn:hover {
+  background-color: #00b184;
+}
+
+footer {
+  margin-top: 30px;
+  color: #777;
+  font-size: 12px;
+} 
